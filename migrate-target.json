@@ -1,0 +1,27 @@
+{
+  "$schema": "./docs/migrate-target.schema.json",
+  "source": {
+    "java": "17",
+    "springBoot": "3.x"
+  },
+  "target": {
+    "java": "21",
+    "springBoot": "4.1.2"
+  },
+  "allowPrerelease": false,
+  "coverage": {
+    "minimumLine": 0.8,
+    "minimumBranch": 0.8
+  },
+  "policy": {
+    "requireOfficialCompatibilityEvidence": false,
+    "requireSpringCloudCompatibility": false,
+    "requireSpringCloudAzureCompatibility": false,
+    "requireDependencyBomAlignment": false,
+    "stopOnUnsupportedCompatibility": false
+  },
+  "notes": [
+    "Verify the target release status at execution time.",
+    "Set allowPrerelease=true only after explicit approval for a preview build."
+  ]
+}

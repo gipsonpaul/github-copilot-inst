@@ -1,0 +1,13 @@
+{
+  // Merge these entries into VS Code User Settings (JSONC), not blindly over existing settings.
+  // Replace the example values with the actual absolute JDK and Maven installation directories.
+  // These are read-only exceptions so Java/Maven binaries can execute while project data stays in the workspace.
+  "chat.agent.sandbox.fileSystem.userConfiguredPaths": {
+    "readwritePaths": [],
+    "readonlyPaths": [
+      "C:/REPLACE/WITH/YOUR/JDK/DIRECTORY",
+      "C:/REPLACE/WITH/YOUR/MAVEN/DIRECTORY"
+    ],
+    "deniedPaths": []
+  }
+}

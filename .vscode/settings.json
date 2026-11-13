@@ -1,0 +1,14 @@
+{
+    "chat.agent.sandbox.enabled": "off",
+    "chat.agent.sandbox.fileSystem.allowDevToolAccess": true,
+    "chat.agent.sandbox.allowUnsandboxedCommands": true,
+
+    "chat.permissions.default": "default",
+    "chat.tools.global.autoApprove": false,
+    "chat.tools.terminal.enableAutoApprove": false,
+
+    "chat.tools.edits.autoApprove": {
+        "**/*": false
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
