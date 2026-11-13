@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EapirtbukomsproductsreceiverApplication<eapirtbukomsproductsreceiver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.wba.api.eapirtbukomsproductsreceiver.EapirtbukomsproductsreceiverApplication",
+            "projectName": "eapirtbukomsproductsreceiver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
